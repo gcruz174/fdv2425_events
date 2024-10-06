@@ -47,7 +47,7 @@ Funcionamiento con UI Toolkit:
 
 ## 3. Agregar a tu escena un objeto que al ser recolectado por el jugador haga que otros dos objetos en la escena realicen las siguientes acciones: el objeto A se desplaza hacia el jugador. El objeto B se ubica en un punto fijo en la escena.
 
-Añadimos un script [CollectibleCylinder.cs](scripts/CollectibleSphere.cs) que recibe un objeto A de tipo FollowCharacter, y un objeto B de tipo Transform. Detectamos la colisión con el jugador utilizando OnTriggerEnter, y en caso de que ocurra activamos el comportamiento del objeto A y teletransportamos el objeto B a su objetivo, definido también como propiedad en el script.
+Añadimos un script [CollectibleCylinder.cs](scripts/CollectibleCylinder.cs) que recibe un objeto A de tipo FollowCharacter, y un objeto B de tipo Transform. Detectamos la colisión con el jugador utilizando OnTriggerEnter, y en caso de que ocurra activamos el comportamiento del objeto A y teletransportamos el objeto B a su objetivo, definido también como propiedad en el script.
 
 Funcionamiento:
 
